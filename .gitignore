@@ -1,0 +1,4 @@
+dagster_university/data/**
+dagster_university/storage/**
+dagster_university/history/**
+venv3.12
