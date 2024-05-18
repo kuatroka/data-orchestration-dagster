@@ -12,3 +12,9 @@ run_coordinator:
     # TODO: Can I increase the concurrent runs with SQLite?
     # Does the context manager and sqlalchemy engine prevent issues?
     max_concurrent_runs: 2
+
+locations:
+  - location_name: dagster_university
+    code_source:
+      package_name: dagster_university
+      working_directory: /Users/yo_macbook/Documents/dev/data-orchestration-dagster/dagster_university

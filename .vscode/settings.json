@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "DuckDB",
+            "name": "re",
+            "database": "${workspaceFolder:data-orchestration-dagster}/dagster_university/data/staging/data.duckdb"
+        }
+    ]
+}
